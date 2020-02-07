@@ -14,3 +14,5 @@ jobs:
           node-version: 12
       - name: Install npm packages
         run: npm ci
+      - name: Gulp build
+        run: npx gulp generic
